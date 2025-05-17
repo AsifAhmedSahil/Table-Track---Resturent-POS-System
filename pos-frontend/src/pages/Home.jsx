@@ -1,20 +1,21 @@
-import React from 'react'
-import BottomNav from '../components/shared/BottomNav'
+import React from "react";
+import BottomNav from "../components/shared/BottomNav";
+import Greetings from "../components/home/Greetings";
 
 const Home = () => {
   return (
-    <section className='bg-[#1f1f1f] h-[calc(100vh-5rem)] overflow-hidden'>
-        {/* left */}
-        <div className='flex-[3] bg-[#1a1a1a]'>
-
-        </div>
-        {/* right */}
-        <div className='flex-[2] bg-[#1f1f1f]'>
-
-        </div>
-        <BottomNav/>
+    <section className="bg-[#1f1f1f] h-[calc(100vh-5rem)] overflow-hidden flex">
+      {/* left */}
+      <div className="flex-[3] ">
+        <Greetings />
+      </div>
+      {/* right */}
+      <div className="flex-[2] bg-[#1f1f1f]">
+        fsdfdsf
+      </div>
+      <BottomNav />
     </section>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
