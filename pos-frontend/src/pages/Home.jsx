@@ -5,6 +5,7 @@ import MiniCard from "../components/home/MiniCard";
 import { FaSackDollar } from "react-icons/fa6";
 import { GiProgression } from "react-icons/gi";
 import RecentOrders from "../components/home/RecentOrders";
+import PopularDishes from "../components/home/PopularDishes";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
       </div>
       {/* right */}
       <div className="flex-[2] bg-[#1f1f1f]">
-        fsdfdsf
+        <PopularDishes/>
       </div>
       <BottomNav />
     </section>
