@@ -5,3 +5,7 @@
 body{
   font-family: "Inter","sana-serif";
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

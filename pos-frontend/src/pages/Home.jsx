@@ -4,6 +4,7 @@ import Greetings from "../components/home/Greetings";
 import MiniCard from "../components/home/MiniCard";
 import { FaSackDollar } from "react-icons/fa6";
 import { GiProgression } from "react-icons/gi";
+import RecentOrders from "../components/home/RecentOrders";
 
 const Home = () => {
   return (
@@ -16,6 +17,8 @@ const Home = () => {
             <MiniCard title="In Progress" number="310" footerNum="2.6" icon={<GiProgression/>}/>
             
         </div>
+        <RecentOrders/>
+       
       </div>
       {/* right */}
       <div className="flex-[2] bg-[#1f1f1f]">
