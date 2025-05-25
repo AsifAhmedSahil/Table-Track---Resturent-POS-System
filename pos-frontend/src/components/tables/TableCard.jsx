@@ -23,5 +23,6 @@ const TableCard = ({id, name, status, initials, seats}) => {
     </div>
   );
 };
+// update
 
 export default TableCard;
